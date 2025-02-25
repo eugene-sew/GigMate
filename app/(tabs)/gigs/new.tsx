@@ -16,7 +16,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 import { cleanJson } from "../../../util/util";
 import { Ionicons } from "@expo/vector-icons";
 
-const genAI = new GoogleGenerativeAI("AIzaSyBUtXKIFZbmg791nADEeKTJq-3V4LRmgzA");
+const genAI = new GoogleGenerativeAI("");
 type Task = {
   id: number;
   gig_id: number;
